@@ -1,0 +1,12 @@
+import array as arr
+
+a = arr.array('i', [2, 3, 4, 2])
+
+
+# Display First 3 Bits of Array
+
+i = 0
+
+while i < 3:
+  print(a[i])
+  i = i + 1
